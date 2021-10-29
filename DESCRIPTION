@@ -1,0 +1,15 @@
+Package: DensityMorph
+Type: Package
+Title: Computes a quasi-distance between sets of points
+Version: 0.1.0
+Author: Kristen Feher
+Maintainer: Kristen Feher <kristen.m.feher@gmail.com>
+Description: This is a package for exploratory data analysis and visualisation of a large number of single cell datasets.
+    It uses a novel quasi-distance to embed single cell datasets in a latent space. 
+    For more details, see the manuscript 'Comparing single cell datasets using DensityMorph' by Kristen Feher. 
+    This package currently has limited functionality, I hope to extend it in the future. 
+License: GNU General Public License v3.0
+Encoding: UTF-8
+LazyData: true
+Imports: transport, pls, RANN, ade4
+RoxygenNote: 7.0.2
